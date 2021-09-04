@@ -1,0 +1,111 @@
+.top-bg{
+  background: #161616;
+  max-width: 100%;
+  height: 105px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.top-bg .img-top{
+  width: 82px;
+  height: 82px;
+  position: absolute;
+  left: 10%;
+}
+.navbar{
+  background: #f11939 !important;
+}
+.nav-link{
+  color: #ffffffcc !important;
+  font-family: 'Bayon', cursive;
+  font-size: 18px;
+}
+.nav-link:hover{
+  color: white !important;
+}
+.navbar-brand{
+  margin-left:10px;
+  margin-right: 100px;
+  background: #d90c16;
+  padding: 100% auto;
+}
+
+.bd-1{
+  width: 80%;
+  box-shadow: 0 0 10px black;
+  margin: 0 auto;
+  border-top: 2px solid red;
+}
+.head-bd-1{
+  width: 80%;
+  height: 30px;
+
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.title-bd-1{
+  width: 100px;
+  height: 30px;
+  background: red;
+  text-align: center;
+  font-family: 'Bayon', cursive;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.title-bd-1 h5{
+ font-size: 16px;
+ line-height: 30px;
+ color: beige;
+}
+.sport-container{
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.sport-1{
+  width: 250px;
+  border: 2px solid white;
+  box-shadow: 0 0 10px black;
+  overflow: hidden;
+  height: 250px;
+  margin: 10px;
+  border-radius: 10px;
+}
+img:hover{
+  transition: 0.5s;
+  transform: scale(0.9);
+  cursor: pointer;
+}
+.sport-1-title{
+  text-align: center;
+  font-family: 'Bayon', cursive;
+  margin-top: 10px;
+}
+.con2{
+  border-top: 2px solid #fa5480;
+}
+.title2{
+  background: #fa5470;
+}
+.title3{
+  background: #38c378;
+}
+.con3{
+  border-top: solid 2px #38c378;
+}
+.footer{
+  margin-top: 100px;
+  width: 100%;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.foot{
+  margin:20px;
+  color: white;
+    font-family: 'Bayon', cursive;
+}
